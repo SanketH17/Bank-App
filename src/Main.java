@@ -24,7 +24,7 @@ public class Main {
         String pass = sc.next();
         System.out.println(user.withdrawMoney(money, pass));
 
-        // rate of interest
+        // rate of interest of the bank
         System.out.println(user.calculateInterest(10));
 
     }
